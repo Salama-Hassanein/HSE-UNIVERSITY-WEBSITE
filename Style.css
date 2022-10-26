@@ -1,0 +1,364 @@
+* {
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+body {
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+
+}
+.top-sections {
+    /* width: 100vw; */
+    height: 100vh;
+    background-image: url(images/image1.jpg);
+    background-position: 90% 65%;
+    animation-name: topsections;
+    animation-duration: 30s;
+    animation-delay: 5s;
+    animation-iteration-count:infinite;
+    background-size: cover;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes topsections {
+    10% {
+     
+        background-image: url(images/image2.jpg);
+    }
+    35% {
+        background-image: url(images/image3.jpg);
+    }
+   
+    
+    70% {
+        background-image: url(images/image5.jpg);
+    }
+    100% {
+        background-image: url(./images/image8.jpg);
+    }
+}
+.section1 .left-side ul {
+    list-style: none;
+}
+.Ru-img {
+    width: 30px;
+    padding: 60px 60px 60px 60px;
+}
+
+.section1 .right-side .nav-right span a {
+    text-decoration: none;
+    color: white;
+}
+.search{
+    padding:10px 10px 10px 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: black;
+    opacity: 60%;
+
+}
+.search::placeholder{
+    color: black;
+    font-weight: bold;
+    opacity: 80%;
+}
+.fa-search{
+    position: relative;
+    top: 5px;
+    left: 40px;
+    color: white;
+}
+.left-side ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.left-side-bar  {
+    float: left;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.left-side-bar2  {
+    float: left;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.left-side-bar-img1  {
+    float: left;
+    padding-left: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    position: relative;
+    top: -7;
+    left: 35px;
+    width: 30px;
+    height: 30px;
+}
+.left-side-bar-img2  {
+    float: left;
+    padding-left: 10px;
+    margin-left: 45px;
+    font-size: 16px;
+    position: relative;
+    right: 10px;
+    top: -6;
+    width: 30px;
+    height: 30px;
+}
+.left-side-bar-img2:hover {
+    cursor: pointer;
+}
+.left-side-bar-img1:hover {
+    cursor: pointer;
+}
+
+.section1 {
+    align-items: center;
+    
+}
+.left-side {
+    position: absolute;
+    width: 60%;
+    font-size: 20px;
+    padding: 15px 20px 0px 0px;
+}
+.right-side {
+    padding: 20px 20px 50px 0px;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: fit-content;
+    font-size: 18px;    
+}
+.lang {
+   width: 55px;
+   height: 30px;
+   font-size: 20px;
+   background:transparent;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+.nav-right {
+float: right;
+}
+
+
+.hrline {
+    /* border-top: none;
+    border-left: none;
+    border-right: none; */
+    border-bottom: 0px solid grey;
+    width: 100%;
+}
+
+.nav2 .nav2-left-side {
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+}
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+.right {
+    float: right;
+    margin-right: 126px;
+    width: 251px;
+    height: 35px;
+
+}
+
+.section2 {
+    vertical-align: middle;
+    padding: 0 90px;
+    align-items: center;
+}
+
+
+.news {
+    font-size: 42px;
+    position: relative;
+    left: 104px;
+
+    
+}
+.news-title {
+    position: relative;
+}
+.all-news {
+    color: blue;
+    list-style: none;
+    float: right;
+    position: relative;
+    bottom: 64px;
+    right: 111px;
+}
+
+.all-news:hover{
+    color: red;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.card1-bg {
+    background-image: url(./images/News/1new.jpg); 
+}
+.card2-bg {
+    background-image: url(./images/News/2new.jpg);
+}
+.card3-bg {
+    background-image: url(./images/News/3new.jpg);
+    
+}
+.card4-bg {
+    background-image: url(./images/News/4new.jpg);    
+}
+.card5-bg {
+    background-image: url(./images/News/5new.png);    
+}
+.card6-bg {
+    background-image: url(./images/News/6new.jpg);
+}
+
+.card1-bg, .card2-bg, .card3-bg, .card4-bg, .card5-bg, .card6-bg {
+    width: 100%;
+    margin-left: 0px 0px 24px;
+    padding: 241.1px 16px 16px;
+    float: left;
+    background-size: cover;
+    margin-bottom: 18px;
+}
+
+.cards-group1, .cards-group2{
+    vertical-align: top;
+    overflow: hidden;
+    margin-top: 22px;
+}
+
+
+.card1, .card2, .card4, .card5 {
+    vertical-align: top;
+    margin-right: 50px;
+    width: 28%;
+    height: fit-content;
+    display: inline-block;
+    padding-left: 15px;
+    text-align: left;
+}
+
+
+.card3, .card6 {
+    vertical-align: top;
+    margin-right: 0px;
+    width: 28%;
+    height: fit-content;
+    display: inline-block;
+    padding-left: 15px;
+    text-align: left;
+    
+}
+.main-tag {
+    color: blue;
+}
+
+.main-tag:hover {
+    color: red;
+}
+.button-bg {
+    border-radius: 7%;
+    background-color: rgb(211, 218, 233);
+    border-style: none;
+}
+
+option {
+    color: blue;
+    
+}
+
+
+.main-footer {
+    height:fit-content;
+    background-color: #002d6e;   
+}
+
+
+
+.footer1 {
+    vertical-align: middle;
+    padding: 40px 42px 25px;
+    width: 100vw;
+   }
+
+.footer-list-heading {
+    font-size: 30px;
+}
+footer ul li {
+    list-style-type: none;
+    padding: 6px 20px 6px;
+    text-align: left;
+    align-items: center;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+}
+.footer1 ul li a{
+    font-size: 16px;
+    opacity: 30%;
+}
+.footer-list1 {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    padding-right: 50px;
+    margin-right: 10px;
+
+}
+
+.footer-list2 {
+    vertical-align: top;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    text-align: center;
+    margin-right: 100px;
+}
+.footer-list3 {
+    vertical-align: top;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    text-align: center;
+    margin-left: 26px;
+}
+.footer-list4 {
+    vertical-align: top;
+    display: inline-block;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-right: 12px;
+}
+
+.footer2 {
+    padding-bottom: 40px;
+}
+.hse {
+    color: white;
+    margin-left: 100px;
+    font-size: 14px;
+
+}
+.socialapps {
+    float: right;
+    margin-right: 80px;
+    
+}
+
